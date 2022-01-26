@@ -1,5 +1,0 @@
-package com.dagurasu.padroesapi.exception;
-
-public class FeignExceptionDecode extends RuntimeException {
-
-}
