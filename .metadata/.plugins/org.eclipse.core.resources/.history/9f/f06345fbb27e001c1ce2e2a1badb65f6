@@ -1,0 +1,5 @@
+package com.dagurasu.padroesapi.gateway.feign;
+
+public class JsonRegion {
+
+}

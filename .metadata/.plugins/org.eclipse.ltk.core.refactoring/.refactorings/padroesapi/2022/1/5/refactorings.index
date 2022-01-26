@@ -1,0 +1,17 @@
+1643200731108	Rename type 'PadroesapiApplication'
+1643200733472	Rename type 'PadroesapiApplicationTests'
+1643201531741	Rename type 'User'
+1643201666577	Rename local variable 'entity'
+1643204539606	Move compilation unit
+1643204561240	Rename package 'com.dagurasu.padroesapi.resources'
+1643204565938	Move compilation unit
+1643205264279	Rename type 'ExceptionHandler'
+1643206371514	Copy package
+1643206398388	Delete element
+1643206772660	Delete element
+1643206802779	Rename package 'com.dagurasu.padroesapi.gateway.controller'
+1643206841543	Rename type 'UserController'
+1643206887278	Move compilation unit
+1643207038963	Rename type 'Estate'
+1643207048345	Rename type 'JsonEstate'
+1643207058509	Rename type 'EstateResource'

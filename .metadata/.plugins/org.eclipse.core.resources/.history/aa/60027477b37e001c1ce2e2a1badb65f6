@@ -1,0 +1,5 @@
+package com.dagurasu.padroesapi.gateway.resources;
+
+public class EstateResource {
+
+}

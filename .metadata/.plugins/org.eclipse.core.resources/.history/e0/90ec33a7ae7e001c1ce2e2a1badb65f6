@@ -1,0 +1,5 @@
+package com.dagurasu.padroesapi.service;
+
+public class UserService {
+
+}

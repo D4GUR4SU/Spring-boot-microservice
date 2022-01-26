@@ -1,0 +1,13 @@
+package com.dagurasu.padroesapi.gateway.feign;
+
+import java.util.List;
+
+import com.dagurasu.padroesapi.gateway.json.JsonEstate;
+
+import feign.RequestLine;
+
+public interface Estate {
+
+	@RequestLine("GET /api/v1/localidades/estados")
+	List<JsonEstate> get();
+}

@@ -1,0 +1,19 @@
+package com.dagurasu.padroesapi.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ControllerAdvice
+public class ExceptionsHandler {
+
+	@ResponseStatus(HttpStatus.BAD_REQUEST)
+	public ResponseEntity invalidName() {
+		ErrorMessage msg = new ErrorMessage();
+		msg.setErrorCode(100);
+		msg.setMsg("Invalid name");
+		
+		return new ResponseEntity<>(HttpStatus.Ok);
+	}
+}

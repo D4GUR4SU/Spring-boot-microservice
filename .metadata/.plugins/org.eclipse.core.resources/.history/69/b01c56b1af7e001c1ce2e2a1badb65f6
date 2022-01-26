@@ -1,0 +1,14 @@
+package com.dagurasu.padroesapi.service;
+
+import com.dagurasu.padroesapi.entity.UserEntity;
+import com.dagurasu.padroesapi.exception.InvalidNameException;
+
+public class UserService {
+
+	public void createUser(UserEntity user) {
+		if (user.getName().length() > 10) {
+			throw new InvalidNameException();
+		}
+	}
+
+}

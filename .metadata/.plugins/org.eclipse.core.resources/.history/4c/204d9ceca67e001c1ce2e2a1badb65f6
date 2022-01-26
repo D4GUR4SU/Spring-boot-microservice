@@ -1,0 +1,5 @@
+package com.dagurasu.padroesapi;
+
+public class UserController {
+
+}
